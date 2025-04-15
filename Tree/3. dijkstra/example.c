@@ -5,7 +5,7 @@ int main(void) {
 	int i, j;
 	extern int weight[MAX_VERTICES][MAX_VERTICES];
 
-	printf("\n ********** °¡ÁßÄ¡ ÀÎÁ¢ Çà·Ä **********\n\n");
+	printf("\n ********** ê°€ì¤‘ì¹˜ ì¸ì ‘ í–‰ë ¬ **********\n\n");
 	for (i = 0; i < MAX_VERTICES; i++) {
 		for (j = 0; j < MAX_VERTICES; j++) {
 			if (weight[i][j] == INF)
@@ -15,7 +15,7 @@ int main(void) {
 		printf("\n\n");
 	}
 
-	printf("\n ********* ´ÙÀÍ½ºÆ®¶ó ÃÖ´Ü °æ·Î ±¸ÇÏ±â **********\n");
+	printf("\n ********* ë‹¤ìµìŠ¤íŠ¸ë¼ ìµœë‹¨ ê²½ë¡œ êµ¬í•˜ê¸° **********\n");
 	Dijkstra_shortestPath(0, MAX_VERTICES);
 
 	getchar();  return 0;
