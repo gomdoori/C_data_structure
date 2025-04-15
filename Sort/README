@@ -9,7 +9,7 @@
 병합 정렬 (Merge Sort)     O(n log n)         O(n)         ✅       분할 정복 기반. 항상 일정한 성능, 재귀 구조 사용.
 퀵 정렬 (Quick Sort)      평균 O(n log n),    O(log n)      ❌       피벗을 중심으로 분할 정복. 평균 성능 매우 우수.
                          최악 O(n²)          
-힙 정렬 (Heap Sort)        O(n log n)         O(1)         ❌       힙 자료구조 이용. 정렬된 순서를 바로 구성 가능.
+힙 정렬 (Heap Sort)        O(n log n)         O(1)        ❌       힙 자료구조 이용. 정렬된 순서를 바로 구성 가능.
 계수 정렬 (Counting Sort)  O(n + k)           O(n + k)     ✅       정수 기반 정렬. 값의 범위가 작고 정수일 때 매우 빠름.
 기수 정렬 (Radix Sort)     O(nk)              O(n + k)     ✅       자릿수를 기준으로 정렬. 숫자, 문자열 정렬에 유용.
 버킷 정렬 (Bucket Sort)    O(n + k)           O(n + k)     ✅/❌     데이터를 여러 버킷에 분산 후 정렬. 균등 분포 데이터에 효과적.
