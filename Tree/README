@@ -1,0 +1,39 @@
+There are various tree algorithms here.
+
+1. DFS (Depth priority navigation)
+When searching for a tree or graph, first search to the deepest node. Usually implemented as a recursive or stack. Used for translocation, mid, and posterior traversal in trees.
+
+2. BFS (width priority navigation)
+Start at the root and search for nodes of the same depth first. Use a queue. Useful for tree level search.
+
+3. Dijkstra Algorithm
+Since the tree itself has no cycle and only a unique path, the shortest path in the tree is sufficient with DFS/BFS. However, use Dijkstra for non-tree weighted graphs. Calculate shortest distance with priority queue.
+
+📌 is less directly related to the tree, but is applied when weights are added above the tree structure.
+
+4. adjL (adjacent list)
+Each node has a list of neighboring nodes to which it is connected. Space efficient, often used in trees.
+
+5. adjM (adjacent matrix)
+Indicates whether nodes are connected in a two-dimensional array. Waste of space, usually used in dense graphs.
+
+
+🧠 Other types of tree algorithms
+
+6. tree circuit
+anterior, median, and posterior traversal (DFS variations)
+
+7. LCA (Minimum Common Ancestor)
+Finding the common ancestor of the two nodes (DFS + DP or binary lifting)
+
+8. Segment Tree
+Tree structure to quickly obtain interval sum/maximum value, etc
+
+9. Trie
+a tree structure representation of a string (useful for searching prefixes, etc.)
+
+10. Binary Search Tree (BST)
+Trees optimized for storing and navigating sorted data
+
+11. AVL / Red-Black Tree
+Balance binary search tree (balance after insertion/deletion)
