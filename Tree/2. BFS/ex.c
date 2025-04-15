@@ -6,7 +6,7 @@ int main(void) {
 	graphType* G9;
 	G9 = (graphType*)malloc(sizeof(graphType));
 	createGraph(G9);
-	// ±×·¡ÇÁ G9 ±¸¼º : Á¤Á¡ u¿¡ ´ëÇÑ °£¼± (u,v)ÀÇ »ğÀÔ¼ø¼­´Â v°¡ Å« °ÍºÎÅÍ.
+	// ê·¸ë˜í”„ G9 êµ¬ì„± : ì •ì  uì— ëŒ€í•œ ê°„ì„  (u,v)ì˜ ì‚½ì…ìˆœì„œëŠ” vê°€ í° ê²ƒë¶€í„°.
 	for (i = 0; i < 7; i++)
 		insertVertex(G9, i);
 	insertEdge(G9, 0, 2);
@@ -25,11 +25,11 @@ int main(void) {
 	insertEdge(G9, 6, 5);
 	insertEdge(G9, 6, 4);
 	insertEdge(G9, 6, 3);
-	printf("\n G9ÀÇ ÀÎÁ¢ ¸®½ºÆ® ");
-	print_adjList(G9);  //G9ÀÇ ÀÎÁ¢ ¸®½ºÆ®¸¦ È®ÀÎ¿ëÀ¸·Î Ãâ·Â
+	printf("\n G9ì˜ ì¸ì ‘ ë¦¬ìŠ¤íŠ¸ ");
+	print_adjList(G9);  //G9ì˜ ì¸ì ‘ ë¦¬ìŠ¤íŠ¸ë¥¼ í™•ì¸ìš©ìœ¼ë¡œ ì¶œë ¥
 	 
-	printf("\n\n///////////////\n\n³Êºñ ¿ì¼± Å½»ö >> ");
-	BFS_adjList(G9, 0);     // 0¹ø Á¤Á¡ÀÎ Á¤Á¡ A¿¡¼­ ³Êºñ ¿ì¼± Å½»ö ½ÃÀÛ
+	printf("\n\n///////////////\n\në„ˆë¹„ ìš°ì„  íƒìƒ‰ >> ");
+	BFS_adjList(G9, 0);     // 0ë²ˆ ì •ì ì¸ ì •ì  Aì—ì„œ ë„ˆë¹„ ìš°ì„  íƒìƒ‰ ì‹œì‘
 
 	getchar();  return 0;
 }
