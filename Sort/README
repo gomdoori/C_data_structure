@@ -2,7 +2,7 @@
 📊 주요 정렬 알고리즘 비교표
 
 알고리즘 이름               평균 시간복잡도        공간복잡도     안정성     주요 특징
-----------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
 버블 정렬 (Bubble Sort)    O(n²)              O(1)         ✅       인접한 원소를 반복 비교하여 정렬. 단순하지만 비효율적.
 선택 정렬 (Selection Sort) O(n²)              O(1)         ❌       가장 작은 값을 선택하여 앞쪽에 배치. 비교 횟수는 일정함.
 삽입 정렬 (Insertion Sort) O(n²)              O(1)         ✅       이미 정렬된 부분에 새 값을 삽입. 거의 정렬된 데이터에 유리.
@@ -14,8 +14,33 @@
 기수 정렬 (Radix Sort)     O(nk)              O(n + k)     ✅       자릿수를 기준으로 정렬. 숫자, 문자열 정렬에 유용.
 버킷 정렬 (Bucket Sort)    O(n + k)           O(n + k)     ✅/❌     데이터를 여러 버킷에 분산 후 정렬. 균등 분포 데이터에 효과적.
 
-----------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
 참고:
 - ✅ 안정 정렬: 동일한 값을 가진 원소들의 상대적 순서가 유지됨
 - 공간복잡도는 추가 메모리 사용량 의미
 - k는 값의 범위 (예: 계수 정렬에서 k = 최대값 - 최소값)
+
+
+====================================================================================================================
+
+📊 Key sorting algorithm comparison table
+
+Algorithm Name Mean Time Complexity Space Complexity Stability Key Features
+-------------------------------------------------------------------------------------------------------------
+Bubble Sort (Bubble Sort) O(n²) O(1) ✅ Alignment by repeated comparison of adjacent elements. Simple but inefficient.
+Selection Sort O(n²) O(1) ❌ Choose the smallest value and place it in front. The number of comparisons is constant.
+Insertion Sort O(n²) O(1) ✅ Insert a new value into the part that is already aligned; advantageous for nearly aligned data.
+Merge Alignment (Merge Sort) O(n) O(n) ✅ Divided Conquest Base. Always constant performance, using recursive structures.
+Quick Sort Average O(nlog), 
+                           Worst O(n²) O(log n) ❌ Divided conquering around pivot. Very good average performance.
+Heap Sort (Heap Sort) O(n-log) O(1) ❌ Using the Heap Data Structure. The sorted order can be configured immediately.
+Counting Sort O(n + k) O(n + k) ✅ integer based alignment. Very fast when the value is small in range and integer.
+Arrangement of base (Radix Sort) O(nk) O(n + k) ✅ Sort by digit. Useful for sorting numbers, strings.
+Bucket Sort (Bucket Sort) O(n + k) O(n + k) ✅/❌ data distributed across buckets and then aligned. Effective for even distribution data.
+
+-------------------------------------------------------------------------------------------------------------
+Please refer to:
+- ✅ Stable alignment: Relative order of elements of the same value is maintained
+- Space complexity means additional memory usage
+- k is a range of values (e.g. k = maximum - minimum in coefficient alignment)
+
