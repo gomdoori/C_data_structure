@@ -17,23 +17,25 @@ Each node has a list of neighboring nodes to which it is connected. Space effici
 5. adjM (adjacent matrix)
 Indicates whether nodes are connected in a two-dimensional array. Waste of space, usually used in dense graphs.
 
+6. BST (Binary Search Tree)
+Trees optimized for storing and navigating sorted data
+
+7. AVL
+Balance binary search tree (balance after insertion/deletion)
 
 🧠 Other types of tree algorithms
 
-6. tree circuit
+8. tree circuit
 anterior, median, and posterior traversal (DFS variations)
 
-7. LCA (Minimum Common Ancestor)
+9. LCA (Minimum Common Ancestor)
 Finding the common ancestor of the two nodes (DFS + DP or binary lifting)
 
-8. Segment Tree
+10. Segment Tree
 Tree structure to quickly obtain interval sum/maximum value, etc
 
-9. Trie
+11. Trie
 a tree structure representation of a string (useful for searching prefixes, etc.)
 
-10. Binary Search Tree (BST)
-Trees optimized for storing and navigating sorted data
-
-11. AVL / Red-Black Tree
+12. Red-Black Tree
 Balance binary search tree (balance after insertion/deletion)
