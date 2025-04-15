@@ -7,8 +7,8 @@
 선택 정렬 (Selection Sort) O(n²)              O(1)         ❌       가장 작은 값을 선택하여 앞쪽에 배치. 비교 횟수는 일정함.
 삽입 정렬 (Insertion Sort) O(n²)              O(1)         ✅       이미 정렬된 부분에 새 값을 삽입. 거의 정렬된 데이터에 유리.
 병합 정렬 (Merge Sort)     O(n log n)         O(n)         ✅       분할 정복 기반. 항상 일정한 성능, 재귀 구조 사용.
-퀵 정렬 (Quick Sort)       평균 O(n log n), 
-                           최악 O(n²)         O(log n)     ❌       피벗을 중심으로 분할 정복. 평균 성능 매우 우수.
+퀵 정렬 (Quick Sort)      평균 O(n log n),    O(log n)      ❌       피벗을 중심으로 분할 정복. 평균 성능 매우 우수.
+                         최악 O(n²)          
 힙 정렬 (Heap Sort)        O(n log n)         O(1)         ❌       힙 자료구조 이용. 정렬된 순서를 바로 구성 가능.
 계수 정렬 (Counting Sort)  O(n + k)           O(n + k)     ✅       정수 기반 정렬. 값의 범위가 작고 정수일 때 매우 빠름.
 기수 정렬 (Radix Sort)     O(nk)              O(n + k)     ✅       자릿수를 기준으로 정렬. 숫자, 문자열 정렬에 유용.
@@ -27,15 +27,16 @@
 
 Algorithm Name Mean Time Complexity Space Complexity Stability Key Features
 -------------------------------------------------------------------------------------------------------------
-Bubble Sort (Bubble Sort) O(n²) O(1) ✅ Alignment by repeated comparison of adjacent elements. Simple but inefficient.
-Selection Sort O(n²) O(1) ❌ Choose the smallest value and place it in front. The number of comparisons is constant.
-Insertion Sort O(n²) O(1) ✅ Insert a new value into the part that is already aligned; advantageous for nearly aligned data.
-Merge Alignment (Merge Sort) O(n) O(n) ✅ Divided Conquest Base. Always constant performance, using recursive structures.
-Quick Sort Average O(nlog), Worst O(n²) O(log n) ❌ Divided conquering around pivot. Very good average performance.
-Heap Sort (Heap Sort) O(n-log) O(1) ❌ Using the Heap Data Structure. The sorted order can be configured immediately.
-Counting Sort O(n + k) O(n + k) ✅ integer based alignment. Very fast when the value is small in range and integer.
-Arrangement of base (Radix Sort) O(nk) O(n + k) ✅ Sort by digit. Useful for sorting numbers, strings.
-Bucket Sort (Bucket Sort) O(n + k) O(n + k) ✅/❌ data distributed across buckets and then aligned. Effective for even distribution data.
+Bubble Sort                O(n²)    O(1)         ✅   Alignment by repeated comparison of adjacent elements. Simple but inefficient.
+Selection Sort             O(n²)    O(1)         ❌   Choose the smallest value and place it in front. The number of comparisons is constant.
+Insertion Sort             O(n²)    O(1)         ✅   Insert a new value into the part that is already aligned; advantageous for nearly aligned data.
+Merge Sort                 O(n)     O(n)         ✅   Divided Conquest Base. Always constant performance, using recursive structures.
+Quick Sort       Average O(nlog),   O(log n)     ❌   Divided conquering around pivot. Very good average performance.
+                   Worst O(n²)
+Heap Sort                 O(n-log)  O(1)         ❌   Using the Heap Data Structure. The sorted order can be configured immediately.
+Counting Sort             O(n + k)  O(n + k)     ✅   integer based alignment. Very fast when the value is small in range and integer.
+Radix Sort                O(nk)     O(n + k)     ✅   Sort by digit. Useful for sorting numbers, strings.
+Bucket Sort               O(n + k)  O(n + k)     ✅/❌ data distributed across buckets and then aligned. Effective for even distribution data.
 
 -------------------------------------------------------------------------------------------------------------
 Please refer to:
