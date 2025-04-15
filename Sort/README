@@ -31,9 +31,9 @@ Bubble Sort                O(n²)    O(1)         ✅   Alignment by repeated co
 Selection Sort             O(n²)    O(1)         ❌   Choose the smallest value and place it in front. The number of comparisons is constant.
 Insertion Sort             O(n²)    O(1)         ✅   Insert a new value into the part that is already aligned; advantageous for nearly aligned data.
 Merge Sort                 O(n)     O(n)         ✅   Divided Conquest Base. Always constant performance, using recursive structures.
-Quick Sort       Average O(nlog),   O(log n)     ❌   Divided conquering around pivot. Very good average performance.
-                   Worst O(n²)
-Heap Sort                 O(n-log)  O(1)         ❌   Using the Heap Data Structure. The sorted order can be configured immediately.
+Quick Sort       Aver. O(n log n),  O(log n)     ❌   Divided conquering around pivot. Very good average performance.
+                 Wor. O(n²)
+Heap Sort                 O(n log n) O(1)        ❌   Using the Heap Data Structure. The sorted order can be configured immediately.
 Counting Sort             O(n + k)  O(n + k)     ✅   integer based alignment. Very fast when the value is small in range and integer.
 Radix Sort                O(nk)     O(n + k)     ✅   Sort by digit. Useful for sorting numbers, strings.
 Bucket Sort               O(n + k)  O(n + k)     ✅/❌ data distributed across buckets and then aligned. Effective for even distribution data.
